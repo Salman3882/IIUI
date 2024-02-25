@@ -1,0 +1,139 @@
+.nav{
+    background-color: var(--yellowbg-color);
+    position: inherit;
+}
+
+.admission-section{
+    padding-top: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.heading{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--yellowbg-color);
+    position: relative;
+    padding-bottom: 8px;
+}
+.heading-info{
+    margin: 0 auto;
+    text-align: justify;
+}
+.subjects-igcse{
+    margin: 60px auto;
+    width: auto;
+}
+.subjects-igcse h2{
+ color: var(--yellowbg-color);
+ font-weight: bold;
+ font-size: 1.5rem;
+ margin: 20px 0;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .subjects-igcse .heading-info{
+    margin-bottom: 30px;
+  }
+
+  /* media queries */
+
+  @media ( max-width:1200px) {
+    .admission-section{
+        width: 1100px;
+    }
+    
+}
+@media ( max-width:1100px) {
+    .admission-section{
+        width: 900px;
+        
+    }
+    .subjects-igcse h2{
+        font-size: 1rem;
+    }
+    
+}
+@media ( max-width:900px) {
+    .admission-section{
+        width: 700px;
+        
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+
+@media ( max-width:750px) {
+    .admission-section{
+        width: 600px;
+        
+    }
+    .heading{
+        font-size: 1rem;
+    }
+    .subjects-igcse h2{
+        font-size: 20px;
+    }
+    table{
+        width: 500px;
+    }
+    
+  }
+  @media ( max-width:600px) {
+    .admission-section{
+        width: 500px;
+        
+    }
+    
+  }
+  
+  
+  @media ( max-width:500px) {
+    .admission-section{
+        width: 450px;
+        
+    }
+    table{
+        width: 400px;
+    }
+    
+  }
+  @media ( max-width:450px) {
+    .admission-section{
+        width: 400px;
+        
+    }
+    
+  }
+  @media ( max-width:400px) {
+    .admission-section{
+        width: 350px;
+        
+    }
+    
+  }
+
+  @media ( max-width:300px) {
+    .admission-section{
+        width:250px;
+        
+    }
+    
+  }
+  
+}
